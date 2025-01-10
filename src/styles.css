@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+    width: 100%;
+    font-size: 1.4rem;
+    background: rgb(246, 246, 74, 0.6);
+}
+
+input[type=search] {
+    width: 150px;
+    height: 30px;
+} 
+
+#search-btn {
+    height: 30px;
+    width: 50px;
+}
+
+#container {
+    background: url("./Imgs/sunny-landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire container */
+    min-width: 800px;
+    width: 80vw;
+    height: 950px;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#search-location-container {
+    border: 2px solid white;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#search-location-container p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#time-container {
+    display: flex;
+    gap: 20px;
+    margin-right: 100px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1.7rem;
+}
+
+#weather-forecast-upper-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    min-height: 200px;
+    gap: 50px;
+    padding: 50px;
+}
+
+.cards {
+    background-color: rgb(232, 237, 239, 0.5);
+    border: 2px solid white;
+    border-radius: 10px;
+}

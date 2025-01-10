@@ -1,0 +1,6 @@
+export const searchButton = document.querySelector("#search-btn");
+export const searchLocationForm = document.querySelector("#search-location-form");
+export const container = document.querySelector("#container");
+export const todayTime = document.querySelector("#today-time");
+export const todayDate = document.querySelector("#today-date");
+export const todayDayOfTheWeek = document.querySelector("#today-day-of-the-week");
