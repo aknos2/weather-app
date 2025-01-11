@@ -24,10 +24,15 @@
     "globals": "^15.14.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.3",
+    "moment-timezone-data-webpack-plugin": "^1.5.1",
     "prettier": "3.4.2",
     "style-loader": "^4.0.0",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "moment-timezone": "^0.5.46"
   }
 }

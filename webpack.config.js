@@ -1,6 +1,8 @@
 // webpack.config.js
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MomentTimezoneDataPlugin = require('moment-timezone-data-webpack-plugin');
+const currentYear = new Date().getFullYear();
 
 module.exports = {
   mode: "development",
@@ -17,6 +19,10 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/template.html",
+    }),
+    new MomentTimezoneDataPlugin({
+      startYear: currentYear - 5,
+      endYear: currentYear + 5,
     }),
   ],
   module: {

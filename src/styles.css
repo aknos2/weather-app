@@ -7,7 +7,7 @@
 }
 
 body {
-    padding: 50px;
+    padding: 40px 50px;
     width: 100%;
     font-size: 1.4rem;
     background: rgb(246, 246, 74, 0.6);
@@ -17,6 +17,10 @@ input[type=search] {
     width: 150px;
     height: 30px;
 } 
+
+#degree-symbol {
+    font-size: 1.3rem;
+}
 
 #search-btn {
     height: 30px;
@@ -59,19 +63,145 @@ input[type=search] {
     margin-right: 100px;
     margin-top: 30px;
     padding: 10px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+}
+
+#today-date {
+    text-align: center;
+}
+
+#city-name {
+    text-align: center;
+    align-content: flex-end;
+    font-size: 3.8rem;
 }
 
 #weather-forecast-upper-container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, minmax(180px, 220px));
     min-height: 200px;
     gap: 50px;
     padding: 50px;
+    justify-content: center;
+    overflow: auto;
+}
+
+@media (max-width: 768px) {
+    #weather-forecast-upper-container {
+        grid-template-columns: repeat(3, minmax(180px, 250px)); /* Limit columns to 2 on smaller screens */
+    }
 }
 
 .cards {
-    background-color: rgb(232, 237, 239, 0.5);
+    background-color: rgb(232, 237, 239, 0.8);
     border: 2px solid white;
     border-radius: 10px;
+    position: relative;
 }
+
+.title {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: -30px;
+}
+
+.weather-icon {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    background-color: transparent;
+    padding-right: 15px;
+}
+
+.weather-icon + p {
+    position: absolute;
+    top: 30%;
+    left: 50%; /* Align horizontally */
+    transform: translate(-50%, -50%); /* Offset to truly center */
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#weather-icon-temperature {
+    position: absolute;
+    top: 70%;
+    left: 50%; /* Align horizontally */
+    transform: translate(-50%, -50%); /* Offset to truly center */
+    text-align: center;
+}
+
+#day-of-week {
+    position: absolute;
+    top: 15%;
+    left: 13%; /* Align horizontally */
+    transform: translate(-50%, -50%); /* Offset to truly center */
+    background: rgb(247, 163, 7, 0.8);
+    border: 1px solid rgb(223, 141, 111);
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+}
+
+#celsius {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px;
+}
+
+#temperature {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#sunrise-sunset {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.sunrise-sunset-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#precip-wind {
+    display: flex;;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.precip-wind-content {
+    display: flex;
+}
+
+#snow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding: 2px;
+}
+
+#snow img {
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+#snow-content {
+    display: flex;
+}
+
+#description {
+    text-align: center;
+    padding: 10px;
+}
+
