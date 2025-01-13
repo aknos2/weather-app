@@ -121,12 +121,13 @@ input[type=search] {
     transform: translate(-50%, -50%); /* Offset to truly center */
     font-size: 1.3rem;
     text-align: center;
+    line-height: 1.2rem;
 }
 
 #weather-icon-temperature {
     position: absolute;
     top: 70%;
-    left: 50%; /* Align horizontally */
+    left: 52%; /* Align horizontally */
     transform: translate(-50%, -50%); /* Offset to truly center */
     text-align: center;
 }
