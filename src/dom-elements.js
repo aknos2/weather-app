@@ -6,3 +6,6 @@ export const todayDate = document.querySelector("#today-date");
 export const todayDayOfTheWeek = document.querySelector("#today-day-of-the-week");
 export const cityName = document.querySelector("#city-name");
 export const upperContainer = document.querySelector("#weather-forecast-upper-container");
+export const bottomContainer = document.querySelector("#weather-forecast-bottom-container");
+export const threeDaysBtn = document.querySelector("#three-days-button");
+export const oneWeekBtn = document.querySelector("#one-week-button");
