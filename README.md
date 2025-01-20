@@ -1,6 +1,6 @@
 # Weather app
 
-9th project of Odin Project. Create a basic weather app using API and promises.
+9th project of Odin Project. Create a basic weather app using API and promises. The page is for desktop use only at the moment.
 
 # Image credits
 
@@ -17,6 +17,10 @@ https://www.freepik.com/icons/night
 https://www.freepik.com/free-ai-image/pixel-art-river-landscape-illustration_299868074.htm#fromView=search&page=2&position=0&uuid=f7c0b6fc-5252-4245-9799-e6965cc5d8c0
 https://www.freepik.com/free-vector/natural-landscape-wallpaper-video-conferencing_9881647.htm#fromView=search&page=1&position=12&uuid=f42d7ff8-9b16-4d6b-8bb2-9f2dabb76d51
 https://www.flaticon.com/free-icon/precipitation_4005834
+https://www.flaticon.com/free-icon/clouds_414825?term=cloudy&page=1&position=35&origin=search&related_id=414825
+https://www.freepik.com/free-ai-image/anime-style-clouds_94937453.htm#fromView=search&page=1&position=18&uuid=84f7d85a-8de5-404f-966c-60cc867a9619&query=cloudy+illustration+field
+https://www.freepik.com/free-vector/rainfall-background-with-clouds-droplets_15244401.htm#fromView=keyword&page=1&position=1&uuid=ab64c1b2-e6ea-41de-9a02-ede14b979f0d&query=Rain
+https://www.freepik.com/free-ai-image/anime-style-clouds_94937381.htm#fromView=search&page=2&position=34&uuid=0bfcf40c-b6d7-4d27-9627-927596073923&query=sky+sunny+illustration
 
 HJ Studio: https://www.freepik.com/icons/sun/7#uuid=e11ab03b-c941-4b76-bc14-8fcdd1422165
 
@@ -26,3 +30,8 @@ https://www.freepik.com/free-photo/3d-winter-landscape-with-christmas-tree-branc
 
 Icon Hubs: https://www.flaticon.com/search?word=sunset
 https://www.flaticon.com/search?word=sunset
+
+justicon: https://www.flaticon.com/free-icons/light-rain
+
+upklyak: https://www.freepik.com/free-vector/full-moon-night-sky-with-stars-clouds-trees-pond-reflecting-starlight_12682493.htm#fromView=search&page=2&position=30&uuid=64dfcaf7-53fe-4eb1-aa5d-1bac7f790c2a&query=night
+https://www.freepik.com/free-vector/anime-style-sky-with-clouds_267091681.htm#fromView=search&page=1&position=48&uuid=e1e59b7f-fe07-45b5-9f24-0c52edb4af6d&query=cloudy+illustration

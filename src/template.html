@@ -15,6 +15,17 @@
           <button id="search-btn">Search</button>
         </div>
 
+        <div id="days-option-container">
+          <div id="temperature-unit-button-container">
+            <button id="celsius-btn">°C</button>
+            <button id="fahrenheit-btn">°F</button>
+          </div>
+          <div>
+            <button id="three-days-button">3D</button>
+            <button id="one-week-button">7D</button>
+          </div>
+        </div>
+
         <div id="city-name"></div>
 
         <div id="time-container">
@@ -26,15 +37,12 @@
         </div>
     </div>
 
-    <div id="days-option-container">
-      <button id="three-days-button">3D</button>
-      <button id="one-week-button">1W</button>
-    </div>
+    
 
     <div id="weather-forecast-upper-container"></div>
-
     <div id="weather-forecast-bottom-container"></div>
-
+    <div id="loading-spinner" class="loading-spinner" style="display:none;"></div>
+    <div id="alert-message-container"><p id="alert-message"></p></div>
     </div>
   </body>
 </html>
