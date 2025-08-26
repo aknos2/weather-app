@@ -1,6 +1,22 @@
 # Weather app
 
-9th project of Odin Project. Create a basic weather app using API and promises. The page is for desktop use only at the moment.
+9th project of Odin Project. Create a basic weather app using API and promises. The background changes depending on the city's time.
+The page is for desktop use only at the moment.
+
+## Website url
+
+https://aknos2.github.io/weather-app/
+
+## Screenshots
+
+<img src="./src/Imgs/screenshot2.png">
+<img src="./src/Imgs/screenshot1.png">
+
+## Technologies used
+
+- Javascript
+- Webpack
+- Moment Timezone
 
 # Image credits
 
