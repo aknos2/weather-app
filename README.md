@@ -9,8 +9,8 @@ https://aknos2.github.io/weather-app/
 
 ## Screenshots
 
-<img src="./src/Imgs/screenshot2.png">
 <img src="./src/Imgs/screenshot1.png">
+<img src="./src/Imgs/screenshot2.png">
 
 ## Technologies used
 
