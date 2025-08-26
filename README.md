@@ -1,7 +1,6 @@
 # Weather app
 
 9th project of Odin Project. Create a basic weather app using API and promises. The page is for desktop use only at the moment.
-https://aknos2.github.io/weather-app/
 
 # Image credits
 
